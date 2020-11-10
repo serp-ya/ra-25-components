@@ -12,7 +12,8 @@ export const TopMenu = React.memo(({ routes }: TTopMenuProps) => (
         {routes.map((routeItem: TRouteItem) => (
             <Link
                 className={styles['menu-item']}
-                to={`/${routeItem.path}`}
+                key={routeItem.path}
+                to={routeItem.path}
             >
                 {routeItem.label}
             </Link>

@@ -1,0 +1,1 @@
+export { StoreClassPage } from './store-class-page';
