@@ -20,8 +20,6 @@ export const Calendar = React.memo(({ date }: TCalendarProps) => {
     const monthNum = date.getMonth();
 
     const calendarMatrix = createCalendarMatrix(date);
-    console.log('Calendar');
-    console.log('calendarMatrix', calendarMatrix);
 
     return (
         <div className={styles['ui-datepicker']}>

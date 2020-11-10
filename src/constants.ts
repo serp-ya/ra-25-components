@@ -24,8 +24,8 @@ export const FULL_RUS_DAYS_NAMES = [
 ];
 
 export const FULL_RUS_DAYS_NAMES_SORTED_BY_DATE_INDEX = [
-    ...FULL_RUS_DAYS_NAMES.slice(0, 6),
     ...FULL_RUS_DAYS_NAMES.slice(-1),
+    ...FULL_RUS_DAYS_NAMES.slice(0, 6),
 ];
 
 export const SHORT_RUS_DAYS_NAMES = [
