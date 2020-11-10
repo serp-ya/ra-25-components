@@ -1,0 +1,50 @@
+.ui-datepicker-material-header {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    background-color: #284B72;
+    color: white;
+    text-align: center;
+    width: 325px;
+  }
+  
+  .ui-datepicker-material-day {
+    background-color: #1F3A58;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .ui-datepicker-material-date {
+    padding: 20px;
+  }
+
+  .ui-datepicker-material-day-num {
+    font-size: 4.5rem;
+    padding: 5px;
+  }
+
+  .ui-datepicker-material-month {
+    font-size: 2rem;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+
+  .ui-datepicker-material-year {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1.8rem;
+    font-weight: 200;
+    padding: 5px;
+  }
+
+  .ui-datepicker-header {
+    background: white;
+    background-color: #1F3A58;
+    color: white;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+  }
+
+  .ui-datepicker-title {
+      padding: 10px;
+      margin: 0;
+  }

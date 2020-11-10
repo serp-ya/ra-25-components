@@ -1,6 +1,7 @@
 import { ComponentType } from 'react';
 import { StoreFuncPage } from './pages/store-func-page';
 import { StoreClassPage } from './pages/store-class-page';
+import { CalendarPage } from './pages/calendar-page';
 
 export type TRouteItem = {
     component: ComponentType<any>;
@@ -24,9 +25,9 @@ export const ROUTES: TRouteItem[] = [
         label: 'Магазин Класс',
         path: '/store-class',
     },
-    // {
-    //     component: '',
-    //     label: 'Календарь',
-    //     path: '/calendar',
-    // },
+    {
+        component: CalendarPage,
+        label: 'Календарь',
+        path: '/calendar',
+    },
 ];

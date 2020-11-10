@@ -1,0 +1,35 @@
+.table {
+    border-collapse: collapse;
+    margin: 0;
+    width: 100%;
+}
+
+.th {
+    color: #999999;
+    font-weight: 200;
+    height: 33px;
+    width: 33px;
+    line-height: 36px;
+}
+
+.td { 
+    background: none;
+    border: none;
+    text-align: center;
+    height: 33px;
+    width: 33px;
+    line-height: 36px; 
+}
+
+.ui-datepicker-today {
+    background-color: #284B72;
+    color: white;
+}
+
+.ui-datepicker-other-month {
+    opacity: 0.35;
+}
+
+.ui-datepicker-week-end {
+    background-color: #b4cbe5;
+}

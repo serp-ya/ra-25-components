@@ -1,0 +1,8 @@
+.ui-datepicker {
+  border: none;
+  box-shadow: 0 12px 36px 16px rgba(0, 0, 0, 0.24);
+  font-family: 'Roboto', sans-serif;
+  margin: 150px auto;
+  padding: 0;
+  width: 325px;
+}
